@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Exercicio Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Validação de 2 campos numéricos</h1>
+        <h2>Exercício módulo 7</h2>
+        <form id="form-validacao">
+            <input type="number" id="numero-a" required placeholder="Digite o primeiro número">
+            <input type="number" id="numero-b" required placeholder="Digite o segundo número">
+            <p class="error-message"> O Número B deverá ser maior que o Número A</p>
+            <button type="submit" id="btn-validacao">Validar</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="./main.js"></script>        
+</body>
+</html>
